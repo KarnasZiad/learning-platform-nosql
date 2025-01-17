@@ -1,0 +1,9 @@
+POST http://localhost:3000/api/courses/create
+Content-Type: application/json
+
+  {
+    "_id": "6",
+    "name": "course test",
+    "description": "no descr.",
+    "duration": "2 days"
+  }
